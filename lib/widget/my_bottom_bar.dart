@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:the_startup_idea_evaluator/constants/color_constant.dart';
 import 'package:the_startup_idea_evaluator/features/add/widget/add_form.dart';
 import 'package:the_startup_idea_evaluator/features/leaderboard/widget/leaderboard_list.dart';
-import 'package:the_startup_idea_evaluator/features/listing/widget/idea_list.dart';
+import 'package:the_startup_idea_evaluator/features/ideas%20list/widget/idea_list.dart';
 
 class MyBottomBar extends StatefulWidget {
   const MyBottomBar({super.key});
