@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:the_startup_idea_evaluator/features/add/widget/add_form.dart';
+import 'package:the_startup_idea_evaluator/widget/my_bottom_bar.dart';
 
 void main() {
   runApp(const MyApp());
@@ -13,7 +13,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: AddForm(),
+      home: MyBottomBar(),
     );
   }
 }
