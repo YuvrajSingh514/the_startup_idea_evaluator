@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:the_startup_idea_evaluator/constants/color_constant.dart';
 import 'package:the_startup_idea_evaluator/features/add/widget/add_form.dart';
-import 'package:the_startup_idea_evaluator/features/leaderboard/widget/leaderboard_list.dart';
-import 'package:the_startup_idea_evaluator/features/ideas%20list/widget/idea_list.dart';
+import 'package:the_startup_idea_evaluator/screens/leaderboard_screen.dart';
+import 'package:the_startup_idea_evaluator/screens/list_screen.dart';
 
 class MyBottomBar extends StatefulWidget {
   const MyBottomBar({super.key});
@@ -15,8 +15,8 @@ class _MyBottomBarState extends State<MyBottomBar> {
   int _currentIndex = 0;
   final List<Widget> _screen = [
     const AddForm(),
-    const IdeaList(),
-    const LeaderboardList(),
+    const ListScreen(),
+    const LeaderboardScreen(),
   ];
   void _onItemTapped(int index) {
     setState(() {
