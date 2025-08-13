@@ -10,4 +10,4 @@ Startup Idea Evaluator is a Flutter app that helps users submit, view, and rank 
 - flutter_rating_bar: ^4.0.1
 
 ## short video
-[![Watch the video](https://drive.google.com/file/d/1ONBJyyzRThcgQBS2Gw3Z_LF0SaZ4ZHde/view?usp=drive_link)
+[![Watch the video](https://drive.google.com/file/d/1ONBJyyzRThcgQBS2Gw3Z_LF0SaZ4ZHde/view)
