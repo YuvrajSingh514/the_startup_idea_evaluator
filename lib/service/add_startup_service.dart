@@ -46,8 +46,7 @@ class AddStartupService {
     try {
       final db = await instance.database;
       final result = await db.query('startups');
-      return result?.map((json) => AddStartupModel.fromMap(json)).toList() ??
-          [];
+      return result.map((json) => AddStartupModel.fromMap(json)).toList();
     } catch (e) {
       print(e);
       return [];
