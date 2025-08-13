@@ -21,4 +21,4 @@ final class IdeasListErrorState extends IdeasListState{
 }
 
 
-/// States related to add idea/// 
+
